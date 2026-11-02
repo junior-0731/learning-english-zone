@@ -1,0 +1,11 @@
+# Finales de línea normalizados a LF en el repo (evita errores de scripts .sh en Windows)
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
+*.onnx binary

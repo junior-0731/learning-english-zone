@@ -1,0 +1,39 @@
+# ---------- Secretos ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# ---------- Node / frontend ----------
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# ---------- Datos generados en local ----------
+# Audio generado por Piper, grabaciones del usuario y modelos descargados
+data/audio/
+data/recordings/
+data/user-content/
+models/
+
+# ---------- Editores y sistema ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
